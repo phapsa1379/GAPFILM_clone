@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./videoditails.css" />
+    <link rel="icon" type="image/png" href="./Images/logo.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <title>گپ فیلم</title>
+</head>
+
+<body dir="rtl">
+    <header>
+        <nav class="nav-bar">
+            <div class="log-div">
+                <img class="logo-img" src="./Images/logo.png" alt="gapfilm logo" />
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item nav-home">
+                    <a href="#" class="nav-link" onclick="select(this)">خانه</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" onclick="select(this)">سریال</a
+            ><i class="fas fa-angle-down"></i>
+            <div class="sub-seryal">
+              <ul class="sub-list">
+                <li class="sub-item"><a href="#" class="sub-link">اکشن</a></li>
+                <li class="sub-item"><a href="#" class="sub-link">جنگی</a></li>
+                <li class="sub-item"><a href="#" class="sub-link">درام</a></li>
+                <li class="sub-item">
+                    <a href="#" class="sub-link">ترسناک</a>
+                </li>
+                <li class="sub-item">
+                    <a href="#" class="sub-link">تاریخی</a>
+                </li>
+            </ul>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" onclick="select(this)">فیلم</a
+            ><i class="fas fa-angle-down"></i>
+            <div class="sub-seryal">
+              <ul class="sub-list">
+                <li class="sub-item"><a href="#" class="sub-link">اکشن</a></li>
+            <li class="sub-item"><a href="#" class="sub-link">جنگی</a></li>
+            <li class="sub-item"><a href="#" class="sub-link">درام</a></li>
+            <li class="sub-item">
+                <a href="#" class="sub-link">ترسناک</a>
+            </li>
+            <li class="sub-item">
+                <a href="#" class="sub-link">تاریخی</a>
+            </li>
+            </ul>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" onclick="select(this)">کودک</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" onclick="select(this)">ویدئو</a
+            ><i class="fas fa-angle-down"></i>
+            <div class="sub-seryal">
+              <ul class="sub-list">
+                <li class="sub-item"><a href="#" class="sub-link">اکشن</a></li>
+            <li class="sub-item"><a href="#" class="sub-link">جنگی</a></li>
+            <li class="sub-item"><a href="#" class="sub-link">درام</a></li>
+            <li class="sub-item">
+                <a href="#" class="sub-link">ترسناک</a>
+            </li>
+            <li class="sub-item">
+                <a href="#" class="sub-link">تاریخی</a>
+            </li>
+            </ul>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" onclick="select(this)">پشتیبانی</a>
+            </li>
+            </ul>
+            <div class="nav-search">
+                <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="nav-btn nav-login nav-btn-login">
+                <a href="#" class="nav-link nav-button">
+                    <div class="login-text jello-vertical">ورود به سایت</div>
+                    <img class="log-icon" src="./Icons/icons/login.png" />
+                </a>
+            </div>
+            <div class="nav-btn jello-vertical">
+                <a href="#" class="nav-link nav-button">
+                    <div class="login-text">دانلود اپلیکیشن</div>
+                    <img class="log-icon" src="./Icons/icons/download-app.png" />
+                </a>
+            </div>
+        </nav>
+        <section class="sec1 tops">
+            <div class="sec1-container">
+                <img src="https://cdn.tek-nic.com/image/362/panel/22575/portrait.jpg?updateTime=1633530013" alt="" class="sec1-main-image" />
+                <div class="sec1-big-image">
+                    <div class="sec1-big-part">
+                        <div class="sec1-big-part-head">
+                            <div class="sec1-big-part-head-imbd">
+                                <div>
+                                    8.8<br />
+                                    <span class="sp-imdb">IMDB</span>
+                                </div>
+                            </div>
+                            <div class="sec1-big-part-head-text">
+                                <div class="sec1-big-part-head1 tracking-in-expand">
+                                    بازی ماهی مرکب
+                                </div>
+                                <div class="sec1-big-part-head2">Squid Game</div>
+                                <div class="sec1-big-part-head3">
+                                    اکشن | ماجراجویانه | درام | هیجان انگیز
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec1-big-part-text">
+                            داستان درباره یک بازی خطرناک می باشد که غیر مجاز است و در آن جان افراد را به طور کاملا جدی تهدید می کند در این بازی که هدفش زنده ماندن است برنده مسابقه 40 میلیون دلار می برد بنابراین افرادی که احتیاج شدید به پول دارند و یا هیچ چیزی برای از دست دادن ندارند
+                            در آن شرکت می کنند اما برخی هم مثل پارک هون خانواده دارند وی که در کارش اخراج شده است و هزینه های زندگی برایش سر سام آور بوده است در این مسابقه شرکت می کند امثال هون در این مکان زیاد هستند اما واقعا کسی از این مسابقه مرگ زنده
+                            می ماند؟!
+                        </div>
+                    </div>
+                </div>
+                <div class="sec1-btns">
+                    <div id="sec1-btn1" class="sec1-btn">
+                        <a href="#">تماشا<i class="fas fa-play"></i></a>
+                    </div>
+                    <div id="sec1-btn2" class="sec1-btn2 sec1-btn">
+                        <a href="#">جزئیات</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="parts">
+            <div class="links">
+                <div class="part-film part"><a href="#part-film-head-id">قسمت ها</a></div>
+                <div class="esplain  part"><a href="#explain-head-id">توضیحات</a></div>
+                <div class="accter part"><a href="#actress-head-id">بازیگران</a></div>
+                <div class="recommend part"><a href="#recommended-head-id">پیشنهادات</a></div>
+                <div class="comment-link part"><a href="#comment-head-id">نظرات</a></div>
+                <div class="report-problem part"><a href="#">گزارش خطا</a></div>
+            </div>
+            <div class="film-parts" id="part-film-head-id">
+                <div class="film-parts-head">فصل اول
+                    <div class="triangle"></div>
+                </div>
+                <div class="partss">
+
+                    <div class="partt1 partt">
+                        <div class="play-film">
+
+                            <img src="https://cdn.tek-nic.com/media/images/movie-poster/series/episodes/maid/s01e02.jpg" alt="part1" class="part-img" />
+                            <div class="play">
+                                <img class="play-icon" src="./Icons/icons/play.png" />
+                            </div>
+                        </div>
+                        <div class="part-film-text">
+
+                            <div class="part-film-session">قسمت 1</div>
+                            <div class="subject-part">فرار ماری</div>
+                        </div>
+                        <div class="film-part-parrant-download">
+
+                            <img class="log-icon film-part-download-icon" src="./Icons/icons/download-app.png" />
+                        </div>
+                    </div>
+                    <div class="partt1 partt">
+                        <div class="play-film">
+
+                            <img src="https://cdn.tek-nic.com/media/images/movie-poster/series/episodes/maid/s01e02.jpg" alt="part1" class="part-img" />
+                            <div class="play">
+                                <img class="play-icon" src="./Icons/icons/play.png" />
+                            </div>
+                        </div>
+                        <div class="part-film-text">
+
+                            <div class="part-film-session">قسمت 1</div>
+                            <div class="subject-part">فرار ماری</div>
+                        </div>
+                        <div class="film-part-parrant-download">
+
+                            <img class="log-icon film-part-download-icon" src="./Icons/icons/download-app.png" />
+                        </div>
+                    </div>
+                    <div class="partt1 partt">
+                        <div class="play-film">
+
+                            <img src="https://cdn.tek-nic.com/media/images/movie-poster/series/episodes/maid/s01e02.jpg" alt="part1" class="part-img" />
+                            <div class="play">
+                                <img class="play-icon" src="./Icons/icons/play.png" />
+                            </div>
+                        </div>
+                        <div class="part-film-text">
+
+                            <div class="part-film-session">قسمت 1</div>
+                            <div class="subject-part">فرار ماری</div>
+                        </div>
+                        <div class="film-part-parrant-download">
+
+                            <img class="log-icon film-part-download-icon" src="./Icons/icons/download-app.png" />
+                        </div>
+                    </div>
+                    <div class="partt1 partt">
+                        <div class="play-film">
+
+                            <img src="https://cdn.tek-nic.com/media/images/movie-poster/series/episodes/maid/s01e02.jpg" alt="part1" class="part-img" />
+                            <div class="play">
+                                <img class="play-icon" src="./Icons/icons/play.png" />
+                            </div>
+                        </div>
+                        <div class="part-film-text">
+
+                            <div class="part-film-session">قسمت 1</div>
+                            <div class="subject-part">فرار ماری</div>
+                        </div>
+                        <div class="film-part-parrant-download">
+
+                            <img class="log-icon film-part-download-icon" src="./Icons/icons/download-app.png" />
+                        </div>
+                    </div>
+                    <div class="partt1 partt">
+                        <div class="play-film">
+
+                            <img src="https://cdn.tek-nic.com/media/images/movie-poster/series/episodes/maid/s01e02.jpg" alt="part1" class="part-img" />
+                            <div class="play">
+                                <img class="play-icon" src="./Icons/icons/play.png" />
+                            </div>
+                        </div>
+                        <div class="part-film-text">
+
+                            <div class="part-film-session">قسمت 1</div>
+                            <div class="subject-part">فرار ماری</div>
+                        </div>
+                        <div class="film-part-parrant-download">
+
+                            <img class="log-icon film-part-download-icon" src="./Icons/icons/download-app.png" />
+                        </div>
+                    </div>
+                    <div class="partt1 partt">
+                        <div class="play-film">
+
+                            <img src="https://cdn.tek-nic.com/media/images/movie-poster/series/episodes/maid/s01e02.jpg" alt="part1" class="part-img" />
+                            <div class="play">
+                                <img class="play-icon" src="./Icons/icons/play.png" />
+                            </div>
+                        </div>
+                        <div class="part-film-text">
+
+                            <div class="part-film-session">قسمت 1</div>
+                            <div class="subject-part">فرار ماری</div>
+                        </div>
+                        <div class="film-part-parrant-download">
+
+                            <img class="log-icon film-part-download-icon" src="./Icons/icons/download-app.png" />
+                        </div>
+                    </div>
+                    <div class="partt1 partt">
+                        <div class="play-film">
+
+                            <img src="https://cdn.tek-nic.com/media/images/movie-poster/series/episodes/maid/s01e02.jpg" alt="part1" class="part-img" />
+                            <div class="play">
+                                <img class="play-icon" src="./Icons/icons/play.png" />
+                            </div>
+                        </div>
+                        <div class="part-film-text">
+
+                            <div class="part-film-session">قسمت 1</div>
+                            <div class="subject-part">فرار ماری</div>
+                        </div>
+                        <div class="film-part-parrant-download">
+
+                            <img class="log-icon film-part-download-icon" src="./Icons/icons/download-app.png" />
+                        </div>
+                    </div>
+                    <div class="partt1 partt">
+                        <div class="play-film">
+
+                            <img src="https://cdn.tek-nic.com/media/images/movie-poster/series/episodes/maid/s01e02.jpg" alt="part1" class="part-img" />
+                            <div class="play">
+                                <img class="play-icon" src="./Icons/icons/play.png" />
+                            </div>
+                        </div>
+                        <div class="part-film-text">
+
+                            <div class="part-film-session">قسمت 1</div>
+                            <div class="subject-part">فرار ماری</div>
+                        </div>
+                        <div class="film-part-parrant-download">
+
+                            <img class="log-icon film-part-download-icon" src="./Icons/icons/download-app.png" />
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="explain-part">
+                <div class="comment-head" id="explain-head-id">
+                    <div>توضیحات</div>
+                </div>
+                <div class="explain-text">
+                    <div class="explain-text-head">خدمتکار</div>
+
+                    <div class="explain-text-text">
+                        داستان سریال درباره مادری جوان می باشد که برای کسب در آمد برای گذراندن زندگی به کار و نظافت در خانه های مردم روی آورده است او باید خرج تنها فرزند خودش را نیز بدهد آن هم در شرایطی که همسرش مسئولیت خانواده را بر عهده نمی گیرد و کلا او را ترک کرده است تمام
+                        این ها باعث نمی شود که این مادر عقب بکشد و تسلیم سرنوشتش شود...
+                    </div>
+                </div>
+            </div>
+            <div class="acctress-part">
+                <div class="comment-head" id="actress-head-id">
+                    <div>بازیگران</div>
+                </div>
+                <div class="acctress-images">
+                    <div class="acctress-image">
+                        <img class="acctress-img" src="https://cdn.tek-nic.com/media/images/actor/billy-burke.jpg" alt="John" />
+                        <div class="acter-name">Billy Burke</div>
+                    </div>
+                    <div class="acctress-image">
+                        <img class="acctress-img" src="https://cdn.tek-nic.com/media/images/imdb/persons/637222993861395856.jpg" alt="John" />
+                        <div class="acter-name">Andie MacDowell</div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="recommended-part">
+                <div class="comment-head" id="recommended-head-id">
+                    <div>پیشنهادات</div>
+                </div>
+                <div class="recommends">
+                    <div class="recommend1 recom "><img src="https://cdn.tek-nic.com/image/362/panel/1520/portrait.jpg?updateTime=1612788168" class="recom-img" />
+                        <div class="play">
+                            <img class="play-icon" src="./Icons/icons/play.png" />
+                        </div>
+                        <div class="imdb">IMDB<b> 8.8</b></div>
+                    </div>
+                    <div class="recommend1 recom"><img src="https://cdn.tek-nic.com/image/362/panel/2560/portrait.jpg?updateTime=1633246539" class="recom-img" />
+                        <div class="play">
+                            <img class="play-icon" src="./Icons/icons/play.png" />
+                        </div>
+                        <div class="imdb">IMDB<b> 8.8</b></div>
+                    </div>
+                    <div class="recommend1 recom"><img src="https://cdn.tek-nic.com/image/362/panel/6658/portrait.jpg?updateTime=1576494743" class="recom-img" />
+                        <div class="play">
+                            <img class="play-icon" src="./Icons/icons/play.png" />
+                        </div>
+                        <div class="imdb">IMDB<b> 8.8</b></div>
+                    </div>
+                    <div class="recommend1 recom"><img src="https://cdn.tek-nic.com/image/362/panel/6682/portrait.jpg?updateTime=1612360884" class="recom-img" />
+                        <div class="play">
+                            <img class="play-icon" src="./Icons/icons/play.png" />
+                        </div>
+                        <div class="imdb">IMDB<b> 8.8</b></div>
+                    </div>
+                    <div class="recommend1 recom"><img src="https://cdn.tek-nic.com/image/362/panel/6873/portrait.jpg?updateTime=1598335980" class="recom-img" />
+                        <div class="play">
+                            <img class="play-icon" src="./Icons/icons/play.png" />
+                        </div>
+                        <div class="imdb">IMDB<b> 8.8</b></div>
+                    </div>
+                    <div class="recommend1 recom"><img src="https://cdn.tek-nic.com/image/362/panel/6886/portrait.jpg?updateTime=1590219009" class="recom-img" />
+                        <div class="play">
+                            <img class="play-icon" src="./Icons/icons/play.png" />
+                        </div>
+                        <div class="imdb">IMDB<b> 8.8</b></div>
+                    </div>
+                    <div class="recommend1 recom"><img src="https://cdn.tek-nic.com/image/362/panel/6888/portrait.jpg?updateTime=1569385423" class="recom-img" />
+                        <div class="play">
+                            <img class="play-icon" src="./Icons/icons/play.png" />
+                        </div>
+                        <div class="imdb">IMDB<b> 8.8</b></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="comments">
+                <div class="comment-head" id="comment-head-id">
+                    <div>دیدگاه ها</div>
+                </div>
+                <textarea class="comment" placeholder=" دیدگاه شما"> </textarea>
+                <div class="comment-btn" onclick="addComment()">ارسال دیدگاه</div>
+                <div class="user-comments">
+                    <div class="user-comment">
+                        <div class="user-comment-part1">
+                            <div class="user-comments-texts">
+                                <div class="user-comments-texts-name">علی</div>
+                                <div class="user-comments-texts-text">
+                                    عالیه حتمااااااا ببینید.
+                                </div>
+                            </div>
+                            <div class="reply">
+                                <div class="reply-like">
+                                    <i class="far fa-thumbs-up like-icon"></i>
+                                    <i class="far fa-thumbs-down like-icon"></i>
+                                </div>
+                                <div class="reply-btn">پاسخ</div>
+                            </div>
+                        </div>
+                        <div class="user-comment-part2">
+                            <div class="time">106 دقیقه پیش</div>
+                            <i class="far fa-thumbs-up like-icon-footer"></i>
+                            <div class="countlike">0</div>
+                            <i class="far fa-thumbs-down like-icon-footer"></i>
+                            <div class="countlike">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-comments">
+                    <div class="user-comment">
+                        <div class="user-comment-part1">
+                            <div class="user-comments-texts">
+                                <div class="user-comments-texts-name">رضا</div>
+                                <div class="user-comments-texts-text">
+                                    عالیییییییییییی.
+                                </div>
+                            </div>
+                            <div class="reply">
+                                <div class="reply-like">
+                                    <i class="far fa-thumbs-up like-icon"></i>
+                                    <i class="far fa-thumbs-down like-icon"></i>
+                                </div>
+                                <div class="reply-btn">پاسخ</div>
+                            </div>
+                        </div>
+                        <div class="user-comment-part2">
+                            <div class="time">106 دقیقه پیش</div>
+                            <i class="far fa-thumbs-up like-icon-footer"></i>
+                            <div class="countlike">0</div>
+                            <i class="far fa-thumbs-down like-icon-footer"></i>
+                            <div class="countlike">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="./videoditails.js"></script>
+</body>
+
+</html>
